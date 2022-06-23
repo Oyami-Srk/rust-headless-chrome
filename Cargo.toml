@@ -39,7 +39,9 @@ jpeg-decoder = { version = "0.1", default_features = false }
 filepath = "0.1.1"
 
 [build-dependencies]
-auto_generate_cdp = "0.3.2"
+# auto_generate_cdp = "0.3.2"
+# auto_generate_cdp = { git = "https://github.com/Oyami-Srk/auto_generate_cdp", branch = "warning_suppress" }
+auto_generate_cdp = { path = "../auto_generate_cdp" }
 
 [lib]
 name = "headless_chrome"
