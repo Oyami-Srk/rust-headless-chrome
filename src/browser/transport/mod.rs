@@ -35,6 +35,7 @@ pub enum MethodDestination {
 }
 
 impl SessionId {
+    #[allow(unused)]
     fn as_str(&self) -> &str {
         &self.0
     }
